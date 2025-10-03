@@ -1,0 +1,18 @@
+{
+    "Debug": true,
+    "DisableMenu": false,
+    "ExposeCommand": true,
+    "ExposeEvent": true,
+    "ScriptRange": 100.0,
+    "Timer": 100,
+    "ToggleMenuControl": 167,
+    "FloatStep": 0.1,
+    "EnableWheelMod": false,
+    "EnableClientPresets": true,
+    "WheelLimits": {
+        "FrontTrackWidth": 25.0,
+        "RearTrackWidth": 25.0,
+        "FrontCamber": 20.0,
+        "RearCamber": 20.0
+    }
+}

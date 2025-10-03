@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XStance Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu" class="menu hidden">
+        <div class="menu-header">
+            <h2>XStance - Vehicle Stance Editor</h2>
+            <button id="closeBtn" class="close-btn">×</button>
+        </div>
+        
+        <div class="menu-content">
+            <div class="section">
+                <h3>Track Width</h3>
+                <div class="slider-container">
+                    <label for="frontTrackWidth">Front Track Width:</label>
+                    <input type="range" id="frontTrackWidth" min="-0.25" max="0.25" step="0.01" value="0">
+                    <span id="frontTrackWidthValue">0.00</span>
+                </div>
+                <div class="slider-container">
+                    <label for="rearTrackWidth">Rear Track Width:</label>
+                    <input type="range" id="rearTrackWidth" min="-0.25" max="0.25" step="0.01" value="0">
+                    <span id="rearTrackWidthValue">0.00</span>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h3>Camber</h3>
+                <div class="slider-container">
+                    <label for="frontCamber">Front Camber:</label>
+                    <input type="range" id="frontCamber" min="-0.20" max="0.20" step="0.01" value="0">
+                    <span id="frontCamberValue">0.00</span>
+                </div>
+                <div class="slider-container">
+                    <label for="rearCamber">Rear Camber:</label>
+                    <input type="range" id="rearCamber" min="-0.20" max="0.20" step="0.01" value="0">
+                    <span id="rearCamberValue">0.00</span>
+                </div>
+            </div>
+            
+            <div class="button-container">
+                <button id="resetBtn" class="action-btn reset-btn">Reset All</button>
+                <button id="saveBtn" class="action-btn save-btn">Save Preset</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net452</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <AssemblyName>xstance.net</AssemblyName>
+    <RootNamespace>XStance</RootNamespace>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Product>XStance - Custom VStancer</Product>
+    <Description>A simplified FiveM script for vehicle stance editing</Description>
+    <Company>Custom</Company>
+    <Authors>Custom Build</Authors>
+    <PackageId>XStance</PackageId>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CitizenFX.Core.Client" Version="1.0.2460" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="MenuAPI.FiveM" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+</Project>
