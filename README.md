@@ -1,1 +1,1 @@
-# XStance - Custom VStancer
+Custom VStancer wip
